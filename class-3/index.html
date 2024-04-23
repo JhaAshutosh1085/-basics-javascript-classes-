@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- css link from bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- css link from css folder -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ALERT METHOD -->
+
+    <div class="container">
+        <p class="alert alert-success">Lorem ipsum dolor sit amet.</p>
+        <p class="alert alert-danger">Lorem ipsum dolor sit amet.</p>
+        <p class="alert alert-warning">Lorem ipsum dolor sit amet.</p>
+        <p class="alert alert-info">Lorem ipsum dolor sit amet.</p>
+        <p class="alert alert-primary">Lorem ipsum dolor sit amet.</p>
+        <p class="alert alert-success">Lorem ipsum dolor sit amet.</p>
+
+        <hr>
+        <hr>
+
+        <button>Click Here</button>
+
+        <hr>
+        <hr>
+
+        <!-- Bootstrap Navbar -->
+        <h2 class="text-center">Bootstrap Navbar</h2>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img style="height: 50px;"class="rounded-circle" src="https://th.bing.com/th/id/OIP.fem2AmNoaUE6vQ5MtXdIDgHaHa?w=800&h=800&rs=1&pid=ImgDetMain" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Gallery
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Personal Photo</a></li>
+                      <li><a class="dropdown-item" href="#">Friends Photo</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">College Photo</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <hr>
+          <hr>
+
+          <h2 class="text-center">Bootstrap Modal</h2>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Login!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- you have to apply modal scrollbar --> 
+    <!-- you have to apply also modal dialog centerd  -->
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login User</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="part">
+            <label for="" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Enter Email">
+          </div>
+          <div class="part">
+            <label for="" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password">
+          </div>
+          <!-- (mt) means margin top -->
+          <button class="btn btn-primary mt-3">Submit</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+              <!-- BOOTSTRAP CROUSEL -->
+  <h2 class="text-center">Bootstrap Crousel</h2>
+
+  <div class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Welcome Geeta University</h2>
+            <h1>B.Tech CSE 1<sup>st</sup>Section -A</h1>
+            <h2>All The Best Everyone</h2>
+          </div>
+          <div class="carousel-item">
+            <h2>Welcome Geeta University</h2>
+            <h1>B.Tech CSE 1<sup>st</sup>Section -A</h1>
+            <h2>All The Best Everyone</h2>
+          </div>
+          <div class="carousel-item">
+            <h2>Welcome Geeta University</h2>
+            <h1>B.Tech CSE 1<sup>st</sup>Section -A</h1>
+            <h2>All The Best Everyone</h2>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+
+  <hr>
+  <hr>
+
+  <!-- Bootstrap Form -->
+  <h2 class="text-center">Bootstrap Form</h2>
+  <div class="row">
+    <div class="col-md-8 offset-2">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Message</label>
+                <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Choose Branch</label>
+                <select class="form-control" name="" id="">
+                    <option selected >Choose Field</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="bca">BCA</option>
+                    <option value="mba">MBA</option>
+                    <option value="mca">MCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="phd">PHD</option>
+                </select>
+                
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+  </div>
+    </div>
+
+
+    <!-- js link from bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

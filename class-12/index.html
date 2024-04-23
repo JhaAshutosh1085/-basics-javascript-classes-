@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .even{
+            background-color: lightcoral;
+        }
+        .odd{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>1. Write a script that alternates the background color of table rows.Use document.getElementByTagName to get all<tr>elements within a table, then manipulate their CSS properties to achieve the alternating colors</h2>
+
+    <hr>
+
+    <table border="1" width="70%" align="center" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>Prince</td>
+            <td>1010</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Raj</td>
+            <td>1010</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Ashutosh</td>
+            <td>1085</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>sagar</td>
+            <td>1002</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Prince</td>
+            <td>1010</td>
+            <td>CSE</td>
+        </tr>
+
+    </table>
+    <hr>
+
+    <h2>2. Build a filter function that hides elements based on a given class name.The function should take the class name as input and hide all elements with that class using document.getElementByclassName?</h2>
+
+<button onclick="hideElements('hideelements')" ondblclick="showElements('hideelements')">Hide</button>
+    <div class="hideelements">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, cupiditate.</p>
+        
+        <a href="">Link1</a>
+        <a href="">Link2</a>
+        <a href="">Link3</a>
+    </div>
+
+    <hr>
+
+    <h2>3. Write a javascript function that counts the total number of links (<a> tags ) in a webpage using the Document.links property? </h2>
+        <hr>
+        <a href="">Link4</a>
+        <a href="">Link5</a>
+        <a href="">Link6</a>
+        <a href="">Link7</a>
+        <a href="">Link8</a>
+        <a href="">Link9</a>
+        <a href="">Link10</a>
+
+        <hr>
+        <button onclick="bodycolor()">click for change BG and text color!</button>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

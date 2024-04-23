@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Ashutosh",
+        "roll":2301301085,
+        "course":"btech cse"
+    },  
+    {
+        "name":"Ashutosh",
+        "roll":2301301085,
+        "course":"btech cse",
+        "friends":["Ashutosh","Aman","prince"],
+        "isprogrammer":true,
+        "skills": {
+            "programming":"PHP",
+            "Exprience":"2 years"
+        },
+        "anotherskills":null
+    }
+]

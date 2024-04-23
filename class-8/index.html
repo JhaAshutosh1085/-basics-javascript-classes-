@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<h2>JAVASCRIPT  EVENTS</h2>
+
+
+<!-- KEYBOARD RELATED EVENTS = this events is used only either in body tag or form tag (this is used for basically for making form) -->
+
+    <!-- <body onkeypress="changeTheme1()" onkeyup="changeTheme2()" onkeydown="changeTheme3()"> -->
+        
+
+    <!-- windows events -->
+    <!-- 1. <body onload="msg()"></body>  -->
+    <!-- 2. <body onresize="msg()"></body>  -->
+    <body onscroll="msg()"></body> 
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore natus ullam incidunt iure odit eaque quaerat reiciendis quasi quae nulla. Natus itaque sed fugiat vel iure qui neque unde quasi possimus. Omnis, quasi. Placeat incidunt sequi nostrum et inventore iusto ex saepe commodi in molestiae reprehenderit, cupiditate voluptatem voluptatibus doloremque. Quidem quod mollitia numquam dolorem doloribus nisi unde. Inventore unde officia ipsam iure fugit asperiores nihil consectetur voluptatem quibusdam veniam, hic vitae repudiandae. Fugiat neque veniam debitis labore at ea ullam! Exercitationem fuga dolore aliquid soluta molestiae asperiores quia impedit a! Adipisci iste repellat eius nihil quaerat aspernatur necessitatibus quasi.</p>
+
+
+
+    <!-- MOUSE RELATED EVENTS -->
+    <!-- 1. (onclick) events for click one time and show the result -->
+    <button onclick="msg()">One Click Here</button>  
+
+    <!-- 2. (ondblclick) events for click two times and show the result -->
+    <button ondblclick="msg()">Double Click Here</button> 
+    
+    <!-- 3. (oncontextmenu) events for click right and show the result -->
+    <button oncontextmenu="msg()">Right Click Here</button>
+    
+    <!-- 4. (onmouseenter) events for only reach mouse cursor here and show the result -->
+    <button onmouseenter="msg()">Mouse Hover</button>
+    
+    <!-- 5. (onmouseleave) events for remove mouse cursor from here and show the result -->
+    <button onmouseleave="msg()">Mouse Remove</button>  
+
+
+
+    <form action="">
+        <input id="input" type="text" onkeypress="changeTheme2()">
+    </form>
+    
+    <!-- link js file -->
+    <script src="main.js"></script>
+</body>
+</html>
